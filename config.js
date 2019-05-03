@@ -13,6 +13,7 @@ module.exports = {
     'findutils',
     'fzf',
     'readline', // ensure gawk gets good readline
+    'hub',
     'gawk',
     'gnupg',
     // Install GNU `sed`, overwriting the built-in `sed`
