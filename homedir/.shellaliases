@@ -4,9 +4,10 @@
 # Simple Program Name Shortening
 alias g=git
 alias gc='git checkout'
+alias gcm='git checkout master'
 alias gs='git status'
 alias gp='git pull'
-
+alias gl='git log'
 
 #############################
 # Utilities
@@ -33,7 +34,6 @@ alias path='echo -e ${PATH//:/\\n}'
 
 # Copy and paste and prune the usless newline
 alias pbcopynn='tr -d "\n" | pbcopy'
-
 
 # Get macOS Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
 alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; mas upgrade; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update; sudo gem cleanup'
